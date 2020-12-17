@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
     fun setAlarm(view: View) {
         val timePicker = findViewById<TimePicker>(R.id.timePicker)
         val calendar = Calendar.getInstance()
